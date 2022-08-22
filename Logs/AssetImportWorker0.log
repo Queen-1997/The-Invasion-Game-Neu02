@@ -1,0 +1,402 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.3f1 (af2e63e8f9bd) revision 11480675'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'de' Physical Memory: 8013 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\UNITY\2021.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UNITY/TheInvasionGameNeu
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64330
+Successfully changed project path to: D:/UNITY/TheInvasionGameNeu
+D:/UNITY/TheInvasionGameNeu
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 160.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
+[Subsystems] Discovering subsystems at path D:/UNITY/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UNITY/TheInvasionGameNeu/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 610 (ID=0x3ea1)
+    Vendor:   Intel
+    VRAM:     4006 MB
+    Driver:   27.20.100.8984
+Initialize mono
+Mono path[0] = 'D:/UNITY/2021.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UNITY/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UNITY/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UNITY/2021.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/UNITY/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004849 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 169.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.163 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1164ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (846ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (527ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (169ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008115 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UNITY\TheInvasionGameNeu\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UNITY\TheInvasionGameNeu\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.907 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1908ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1502ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (487ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (715ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (499ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.36 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3590 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (59.4 MB). Loaded Objects now: 4071.
+Memory consumption went from 152.5 MB to 93.1 MB.
+Total: 10.237300 ms (FindLiveObjects: 0.557700 ms CreateObjectMapping: 0.582200 ms MarkObjects: 8.347400 ms  DeleteObjects: 0.747500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 890128.548127 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/FBX_Importer.preset
+  artifactKey: Guid(d3ed1384c29c5664eb368725bbe3ef77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/FBX_Importer.preset using Guid(d3ed1384c29c5664eb368725bbe3ef77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43f396804285dec4209d87129f0d059') in 1.337214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.185703 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Corridor_End.prefab
+  artifactKey: Guid(c73073a1e7dbc8c44b01dce4ef7cfb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Corridor_End.prefab using Guid(c73073a1e7dbc8c44b01dce4ef7cfb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22571bf4b5aca8bb23f668317d9be05') in 19.063152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Logo.prefab
+  artifactKey: Guid(9be053ba5f51c4d4fad82e394da388e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Logo.prefab using Guid(9be053ba5f51c4d4fad82e394da388e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff5334e6926a40452a8bf0eeb68d435') in 0.538411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Roof_Normal_01.prefab
+  artifactKey: Guid(18a91a4d870ac664c92379393597d081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Roof_Normal_01.prefab using Guid(18a91a4d870ac664c92379393597d081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9a4bee20382827af9153a95abee0a6') in 15.408049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Podium_02.prefab
+  artifactKey: Guid(43aca86b5fc799c47a5194f4e6a64f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Podium_02.prefab using Guid(43aca86b5fc799c47a5194f4e6a64f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5a3a1776606c8f80249b32d4fef397') in 11.556367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Floor_Normal_01.prefab
+  artifactKey: Guid(e579e46691db2e54cb2fe9109120173e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Floor_Normal_01.prefab using Guid(e579e46691db2e54cb2fe9109120173e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242103ced3b59fb85a278b062ef6b632') in 15.106468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Showroom_01.prefab
+  artifactKey: Guid(9fd65da602ae57746b4a20725b9a69d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Showroom_01.prefab using Guid(9fd65da602ae57746b4a20725b9a69d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2290f02ab8bb861921166f062360331') in 8.043489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Corridor_Part_01.prefab
+  artifactKey: Guid(cb7775518c732034ba7488ec54c51511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Corridor_Part_01.prefab using Guid(cb7775518c732034ba7488ec54c51511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ab96c0cf4f5d6c8fbd2973cd36cd53') in 8.625059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Floor_Angle_01.prefab
+  artifactKey: Guid(431edb26e74a30841afe223730630335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Floor_Angle_01.prefab using Guid(431edb26e74a30841afe223730630335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989baac3659ab7255613e6da87de820f') in 5.237950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Wall_Angle_01.prefab
+  artifactKey: Guid(d12ad7ade1b48b24c9d3f325484e602b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Wall_Angle_01.prefab using Guid(d12ad7ade1b48b24c9d3f325484e602b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4c43fa87d4e96c05628cf04288c274') in 1.931506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Roof_Hole_01.prefab
+  artifactKey: Guid(37da26db6e587dd489a461a945071d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Roof_Hole_01.prefab using Guid(37da26db6e587dd489a461a945071d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c056272e92889ff7fdeeadebacaf8df2') in 2.264294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Wall_Normal_01.prefab
+  artifactKey: Guid(71319aefacea33c4d81222ec99f1b049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Wall_Normal_01.prefab using Guid(71319aefacea33c4d81222ec99f1b049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df25c980e27638b3326794d79fefd3b0') in 2.063258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Podium_01.prefab
+  artifactKey: Guid(44b221b011123034f87457bdca00c56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Podium_01.prefab using Guid(44b221b011123034f87457bdca00c56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e056afb8c1caf42d1fff01396ec6af') in 2.307138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Floor_Normal_02.prefab
+  artifactKey: Guid(6a70de0042255a74c8191793a4ba6e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Floor_Normal_02.prefab using Guid(6a70de0042255a74c8191793a4ba6e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a275b70ab94a74bec2b8aacce2ad4388') in 2.187463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.651082 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs
+  artifactKey: Guid(b6b3358754e17bd469b33bb71e6febce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs using Guid(b6b3358754e17bd469b33bb71e6febce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb606e7d4af26786f34d516985d260c') in 0.008441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 176.154025 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Scenes
+  artifactKey: Guid(3fc05b00ac0768d43929a211619bd5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Scenes using Guid(3fc05b00ac0768d43929a211619bd5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22126d6c98f3d8925637c22c4ffeb200') in 0.016683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 211.866004 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures
+  artifactKey: Guid(ac3c9c364ea0be14888e84a27091eb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures using Guid(ac3c9c364ea0be14888e84a27091eb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608e41d29e7b03268a6a75c74ea78096') in 0.015125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Norm.png
+  artifactKey: Guid(0f30554eca854f44d8e3c6ee49d1cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Norm.png using Guid(0f30554eca854f44d8e3c6ee49d1cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae200a76cf3bed5856734466db823a6') in 11.621058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Logo.png
+  artifactKey: Guid(93825d8e3a247654982a38af00788f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Logo.png using Guid(93825d8e3a247654982a38af00788f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2399fd5c2015f13aa13518d7908890') in 0.204458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Dif.png
+  artifactKey: Guid(ed13b0a40557b484fbf577a3fcef663d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Dif.png using Guid(ed13b0a40557b484fbf577a3fcef663d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7be71df244d0abc27f1e218d4aa7f7') in 2.665817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Illum.png
+  artifactKey: Guid(3cdededbb56107c468acf88833d650e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Illum.png using Guid(3cdededbb56107c468acf88833d650e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec7fd9025fb820fac4fcf354e1f8942') in 0.272311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Metal.tif
+  artifactKey: Guid(34e23a454c8cedb4cb8c013abc5ffd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Metal.tif using Guid(34e23a454c8cedb4cb8c013abc5ffd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6230c8b290d4f6635cb42f2320f174ce') in 0.266906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Ao.png
+  artifactKey: Guid(c4795c745f403974a979cf08ac8b5d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Ao.png using Guid(c4795c745f403974a979cf08ac8b5d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f23ea4e15176bf11147c4e3b7d740c') in 1.464702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 670.598420 seconds.
+  path: Assets/AssetStore_Packages/Detonator Explosion Framework
+  artifactKey: Guid(da245b2ccb01d154fbb31106d7df9d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/Detonator Explosion Framework using Guid(da245b2ccb01d154fbb31106d7df9d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b7d4746b8621ffc9ceb6ab396de135') in 0.014409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.960899 seconds.
+  path: Assets/AssetStore_Packages/Detonator Explosion Framework/Resources
+  artifactKey: Guid(5a897285633511448ab441fc82c660a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/Detonator Explosion Framework/Resources using Guid(5a897285633511448ab441fc82c660a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdda92f4c0e9a0ab8dca4e18f1523490') in 0.012840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 223.789862 seconds.
+  path: Assets/AssetStore_Packages/Detonator Explosion Framework/System
+  artifactKey: Guid(46e7327e7436f3749b2d50759ce22f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/Detonator Explosion Framework/System using Guid(46e7327e7436f3749b2d50759ce22f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7986ec830e5058ad9d51ed83936f89') in 0.048262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.616781 seconds.
+  path: Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorGlow.cs
+  artifactKey: Guid(18ccfc2137d7c684f966ad07b4dc0d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorGlow.cs using Guid(18ccfc2137d7c684f966ad07b4dc0d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76c6a4e9cd3967c7e0e4387dcc85d16') in 0.320023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.567443 seconds.
+  path: Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorForce.cs
+  artifactKey: Guid(a99a52afbdc68cd4fbc1c477cf05bbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorForce.cs using Guid(a99a52afbdc68cd4fbc1c477cf05bbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac4b10d0c777d1887ef902e58637448') in 0.027061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.082160 seconds.
+  path: Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorFireball.cs
+  artifactKey: Guid(edba693a4a231da4e9434948a5dec7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorFireball.cs using Guid(edba693a4a231da4e9434948a5dec7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310f1b24c2a3d55039e217d94fe0198c') in 0.014145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.577664 seconds.
+  path: Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorComponent.cs
+  artifactKey: Guid(3c8f4c01e7153439e9ed1499f5b1aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorComponent.cs using Guid(3c8f4c01e7153439e9ed1499f5b1aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763ebacfed88b12f8c4facd3a2b1a8f6') in 0.040447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.430795 seconds.
+  path: Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorCloudRing.cs
+  artifactKey: Guid(31a304ef63fe9024d9a09477e1262f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorCloudRing.cs using Guid(31a304ef63fe9024d9a09477e1262f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86918f1211fefde9df034b4e0b4bfad4') in 0.014908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.598258 seconds.
+  path: Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorBurstEmitter.cs
+  artifactKey: Guid(b739e859c3f20354bbd47c572d0b5aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorBurstEmitter.cs using Guid(b739e859c3f20354bbd47c572d0b5aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c8cc842093b6a45568d9a2de3373aa') in 0.009942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.460327 seconds.
+  path: Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorSpray.cs
+  artifactKey: Guid(f7134859da924a14b9de2f13721402b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorSpray.cs using Guid(f7134859da924a14b9de2f13721402b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce8b06c7ada466a58a13d883b60170b') in 0.012956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.994797 seconds.
+  path: Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorSparks.cs
+  artifactKey: Guid(1154a16e40ae84e42b591529ea211201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorSparks.cs using Guid(1154a16e40ae84e42b591529ea211201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68db61440aea650ff380dae5e062a9f9') in 0.009101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.812290 seconds.
+  path: Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorSound.cs
+  artifactKey: Guid(b2b0ca7171ed55c4eaaf9aba39d05e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorSound.cs using Guid(b2b0ca7171ed55c4eaaf9aba39d05e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85cd7d7da3167e1d641b4a0c5fe0a338') in 0.011443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.092532 seconds.
+  path: Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorSmoke.cs
+  artifactKey: Guid(034345331e52f2b4e873add1691384e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorSmoke.cs using Guid(034345331e52f2b4e873add1691384e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a46a9873cc8bcb86af96c6ffc05fae2') in 0.009949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.733130 seconds.
+  path: Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorShockwave.cs
+  artifactKey: Guid(745312967000e3c449713c45a6a516f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorShockwave.cs using Guid(745312967000e3c449713c45a6a516f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2810921595b5fbd99aa3b3c5e924faa3') in 0.011140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.724404 seconds.
+  path: Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorLight.cs
+  artifactKey: Guid(8966b5c4c1545d741a2a90a4a01e7f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorLight.cs using Guid(8966b5c4c1545d741a2a90a4a01e7f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb04151b9e50124719556a0edfdf9007') in 0.013475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.088595 seconds.
+  path: Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorHeatwave.cs
+  artifactKey: Guid(e0a30e21f576d054695cb3804fce8a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/Detonator Explosion Framework/System/DetonatorHeatwave.cs using Guid(e0a30e21f576d054695cb3804fce8a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe70b3c94ca449f29e4fe48c8ab44970') in 0.412456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1880.273823 seconds.
+  path: Assets/AssetStore_Packages/HiRezSpaceshipsCreatorFree/UpgradeHDRP
+  artifactKey: Guid(8d2c976fc3a604b40b6afa5927d0d30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore_Packages/HiRezSpaceshipsCreatorFree/UpgradeHDRP using Guid(8d2c976fc3a604b40b6afa5927d0d30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f280ea6334fdb781c3583c72b13f19f2') in 0.307248 seconds 
